@@ -2,7 +2,7 @@ import Axios from 'axios';
 import { IUser } from '../types';
 
 const axios = Axios.create({
-  baseURL: 'http://localhost:3001/api',
+  baseURL: 'https://encouraging-complete-periwinkle.glitch.me',
   timeout: 1000,
   headers: {
     'Content-Type': 'application/json',
