@@ -1,9 +1,12 @@
 .root {
+  box-sizing: border-box;
   background-color: var(--white);
   border-radius: var(--rounded);
   height: 336px;
   width: 400px;
   transition: var(--animated);
+  margin-bottom: 1.5rem;
+  padding: 4rem 3.2rem;
 }
 
 .root:hover {
